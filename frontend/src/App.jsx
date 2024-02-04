@@ -1,11 +1,9 @@
+import { CreateTodo } from "./Components/CreateTodo";
 
 function App() {
   return (
     <div>
-      Hi there
+      <CreateTodo/>
     </div>
   )
 }
-
-
-export default App
