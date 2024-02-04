@@ -6,5 +6,4 @@ const todoSchema = new mongoose.Schema({
   completed: String,
 });
 
-module.exports = mongoose.exports('Todo' , todoSchema)
-
+module.exports = mongoose.model('todo' , todoSchema)
