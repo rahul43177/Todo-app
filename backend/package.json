@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Creating a backend server for todo app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Rahul Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "zod": "^3.22.4"
+  }
+}
