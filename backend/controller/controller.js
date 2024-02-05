@@ -3,9 +3,8 @@ const { createTodo, updateTodo } = require("../types");
 const todoModel = require("../model/todoModel");
 module.exports.getAllTodo = async (req, res) => {
   const allTodo = await todoModel.find({});
-  return res.status(200).json({
-    status: true,
-    allTodo,
+  return res.json({
+    todos : allTodo,
   });
 };
 
